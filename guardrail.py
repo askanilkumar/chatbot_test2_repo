@@ -6,7 +6,6 @@ single deleted line is a clean, visible CI test failure to demo live.
 import re
 
 BLOCKED_PATTERNS = [
-    r"(show|reveal|print|repeat) (me )?(your |the )?(system prompt|hidden instructions|instructions above)",
     r"ignore (all |the )?(previous|prior|above) instructions",
 ]
 
