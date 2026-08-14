@@ -11,9 +11,9 @@ import streamlit as st
 
 from guardrail import is_blocked
 
-st.set_page_config(page_title="Support Chatbot Demo from Anil", page_icon="🤖")
+st.set_page_config(page_title="Support Chatbot Demo is working", page_icon="🤖")
 
-st.title("🤖 Support Chatbot Demo from Anil")
+st.title("🤖 Support Chatbot Demo is working")
 st.caption("Live CI/CD demo — every reply below is generated locally, no external API call.")
 
 if "messages" not in st.session_state:
